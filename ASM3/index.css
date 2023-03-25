@@ -1,0 +1,54 @@
+.row img {
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.content h1 {
+    margin-top: 40px;
+}
+
+.text2 p {
+    margin-top: 20px;
+}
+
+.row img {
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.banner-img{
+    display: none;
+}
+    @media only screen and (min-width: 987px) {
+    /* For desktop: */
+   
+  .banner-img{
+        display: block;
+        width: 100%;
+        }
+        .banner h1{
+            position: absolute; 
+            margin-top: 150px;   
+            margin-left: 50px;
+            color: white;
+        }
+        .banner p{
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 50px;
+            color: white;
+        }
+    }
+    .row1{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    
+
+
